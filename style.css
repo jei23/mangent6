@@ -1,0 +1,62 @@
+/* 
+1.posicionamiento
+2.modelo caja (box mode)
+3.tipografia
+4.visuales
+5.otros
+*/
+*{
+    box-sizing: border-box;
+    padding:0 ;
+    margin: 0;
+}
+
+:root{
+    /* colores*/
+    --bitcoin-orange:#f7931A;
+    --soft-orange:#ffE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue:#E7F5ff;
+    --warm-black:#201E1C;
+    --color-black:#282623;
+    --grey:#BABABA;
+    --off-wite:#fAF8F7;
+    --just-white:#fff;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+}
+
+header img{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center; 
+}
+
+.header--title-contain{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+h1{
+    color: #1A9AF7;
+}
