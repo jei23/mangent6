@@ -1,0 +1,23 @@
+
+
+@media (max-width: 768px) { 
+    .main-section-container{
+      display: flex;
+      flex-direction: column;
+    
+    }
+ }
+
+@media (max-width:768px) {
+    .contaniertable{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:768px) {
+    .plans-container--slider{
+        justify-content: center;
+    }
+    
+}
